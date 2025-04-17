@@ -1,0 +1,62 @@
+.skillsync-testimonial {
+    background: linear-gradient(135deg, #2bb673, #2bb690);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .skillsync-testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .testimonial-quote {
+    font-size: 20px;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    border: 2px solid white;
+    background-color: transparent;
+  }
+  
+  .testimonial-name {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .testimonial-role {
+    font-size: 14px;
+    margin-top: 4px;
+    opacity: 0.8;
+  }
+  
+  /* Dots */
+  .testimonial-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 8px;
+  }
+  
+  .testimonial-dots .dot {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .testimonial-dots .dot.active {
+    background: #fff;
+  }
+  

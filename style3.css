@@ -1,0 +1,330 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #eafff5, #ffffff);
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .form-section {
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .signup-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .join-btn {
+    background-color: #25bba4;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .or {
+    text-align: center;
+    margin: 20px 0 10px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+  }
+  
+  .google {
+    background-color: #db4437;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .twitter {
+    background-color: #1da1f2;
+  }
+  
+  .terms {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .terms a {
+    color: #25bba4;
+    text-decoration: none;
+  }
+  
+  .illustration img {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .container2 {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #888;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .category img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+    margin-bottom: 5px;
+  }
+  
+  .category span {
+    font-size: 14px;
+  }
+  
+  .category.active {
+    color: #25bba4;
+    font-weight: bold;
+  }
+  
+  .category.active img {
+    opacity: 1;
+  }
+  
+  .category.active::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #25bba4;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 2px;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .card-img {
+    max-width: 250px;
+  }
+  
+  .card-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .skillsync-team-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  /* Top card section */
+  .skillsync-actions .skillsync-action-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  
+  .skillsync-action-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    padding: 25px 20px;
+    max-width: 300px;
+    flex: 1;
+    transition: transform 0.2s ease;
+  }
+  
+  .skillsync-action-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .skillsync-action-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .skillsync-action-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skillsync-action-card.create {
+    border-top: 5px solid #f4b400;
+  }
+  
+  .skillsync-action-card.join {
+    border-top: 5px solid #0f9d58;
+  }
+  
+  .skillsync-action-card.find {
+    border-top: 5px solid #db4437;
+  }
+  
+  /* Reputation Section */
+  .skillsync-reputation {
+    text-align: center;
+  }
+  
+  .skillsync-reputation h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .skillsync-rep-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .skillsync-rep-card {
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .skillsync-rep-card img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .skillsync-rep-card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .skillsync-rep-card p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .skillsync-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .skillsync-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skillsync-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .skillsync-logo img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .skillsync-nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .skillsync-nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .skillsync-nav a:hover {
+    color: #0f9d58;
+  }
+  
+  .skillsync-nav .login-btn {
+    background-color: #0f9d58;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .skillsync-nav .login-btn:hover {
+    background-color: #0c7d45;
+  }
+  
